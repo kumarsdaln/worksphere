@@ -26,6 +26,5 @@ public class UserRequest {
     @Size(min=8, max=30, message="Password must be between 12 to 50 chars.")
     private String password;
 
-    @NotBlank(message="Gender is required!")
     private Gender gender;
 }
